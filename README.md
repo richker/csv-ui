@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# CSV-UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CSV-UI is a robust React application that fetches data from a REST API and displays it on a line chart. The application supports date filtering, allowing users to select a specific date range and view the corresponding data.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you begin, ensure you have met the following requirements:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* You have installed the latest version of Node.js and npm.
+* You have a `<Windows/Linux/Mac>` machine.
 
-### `npm test`
+### Installing CSV-UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install CSV-UI, follow these steps:
 
-### `npm run build`
+1. Clone the repository to your local machine.
+2. Navigate to the project directory: `cd csv-ui`
+3. Install the dependencies: `npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Using CSV-UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To use CSV-UI, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Start the application: `npm start`
+2. The application will start on localhost:3000 by default.
 
-### `npm run eject`
+## Application Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The application fetches data from the `/recall` endpoint of a REST API. The endpoint supports date filtering with `from_ts` and `to_ts` parameters.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Examples
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- To view all data: Navigate to `localhost:3000`.
+- To filter by date: Use the date filter feature in the application's user interface.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Response
 
-## Learn More
+The application displays an array of data on a line chart, with each data point representing a date and a recall value.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://reactjs.org/) - The web framework used
+- [Node.js](https://nodejs.org/) - The runtime environment
+- [npm](https://www.npmjs.com/) - Package manager
 
-### Code Splitting
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Matan Richker - Matanrichker@gmail.com - [Github Account](https://github.com/richker)
